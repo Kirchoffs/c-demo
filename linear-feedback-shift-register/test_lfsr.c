@@ -5,7 +5,7 @@
 #include "lfsr.h"
 
 int main() {
-    int8_t *numbers = (int8_t*) malloc(sizeof(int8_t) * 65535);
+    int8_t* numbers = (int8_t*) malloc(sizeof(int8_t) * 65535);
     if (numbers == NULL) {
         printf("Memory allocation failed!");
         exit(1);
